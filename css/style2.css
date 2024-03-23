@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 750px;
+    gap: 15px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.box {
+    background-color: whitesmoke;
+    border: 2px solid black;
+    text-align: center;
+    width: 200px;
+    height: 400px;
+}
+
+.caption {
+    font-weight: bold;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    border: 0cap;
+    background-color: gray;
+    padding: 10px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: red;
+}
